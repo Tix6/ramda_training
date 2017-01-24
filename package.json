@@ -1,0 +1,29 @@
+{
+  "name": "ramda-training",
+  "version": "0.1.0",
+  "author": "tix6",
+  "scripts": {
+    "lint": "eslint src --color"
+  },
+  "dependencies": {
+    "ramda": "^0.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "latest",
+        {
+          "modules": false
+        }
+      ]
+    ],
+    "plugins": [
+      "ramda"
+    ]
+  }
+}

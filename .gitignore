@@ -1,0 +1,6 @@
+node_modules
+*.lock
+*.tmp
+*.log
+*.DS_*
+*._DS_*
